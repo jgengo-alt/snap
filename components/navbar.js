@@ -12,7 +12,7 @@ export default function Navbar() {
     <nav>
       <div className="flex h-20 items-center justify-between px-10">
         <div className="flex">
-          <img src="/logo.svg" />
+          <img src="logo.svg" />
           <div className="ml-10 hidden items-center gap-5 lg:flex">
             <div className="relative">
               <div>
