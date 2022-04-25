@@ -2,4 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"); */
 
+:root {
+  --clr-1: hsl(0, 0%, 98%);
+  --clr-2: hsl(0, 0%, 41%);
+  --clr-3: hsl(0, 0%, 8%);
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+  color: var(--clr-3);
+}
+
+p {
+  font-size: 18px;
+}
+
+details > summary {
+  list-style: none;
+}
+
+@layer components {
+  .card {
+    @apply absolute top-10 right-0 rounded-lg border-[1px] border-black/5 bg-white py-2 shadow-md;
+  }
+}
