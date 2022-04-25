@@ -8,11 +8,8 @@ export default function Home() {
       <Navbar />
       <div className="container flex flex-col lg:container lg:mx-auto lg:flex-row-reverse">
         <picture>
-          <source
-            media="(min-width: 1024px)"
-            srcSet="/image-hero-desktop.png"
-          />
-          <img src="/image-hero-mobile.png" />
+          <source media="(min-width: 1024px)" srcSet="image-hero-desktop.png" />
+          <img src="image-hero-mobile.png" />
         </picture>
 
         <Hero />

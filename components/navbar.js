@@ -25,7 +25,7 @@ export default function Navbar() {
                   <span className="ml-2">
                     <img
                       src={
-                        feature ? "/icon-arrow-up.svg" : "/icon-arrow-down.svg"
+                        feature ? "icon-arrow-up.svg" : "icon-arrow-down.svg"
                       }
                       className="inline-flex"
                     />
@@ -47,7 +47,7 @@ export default function Navbar() {
                   <span className="ml-2">
                     <img
                       src={
-                        company ? "/icon-arrow-up.svg" : "/icon-arrow-down.svg"
+                        company ? "icon-arrow-up.svg" : "icon-arrow-down.svg"
                       }
                       className="inline-flex"
                     />

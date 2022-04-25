@@ -9,12 +9,12 @@ export default function MobileNavbar() {
 
   return (
     <div className="flex lg:hidden">
-      <img src="/icon-menu.svg" onClick={() => setAside(true)} />
+      <img src="icon-menu.svg" onClick={() => setAside(true)} />
       <div className={`absolute inset-0 ${aside ? "" : "hidden"} bg-black/70`}>
         <aside className="absolute top-0 right-0 h-screen w-8/12 bg-white p-6">
           <div className="flex flex-col">
             <button className="self-end ">
-              <img src="/icon-close-menu.svg" onClick={() => setAside(false)} />
+              <img src="icon-close-menu.svg" onClick={() => setAside(false)} />
             </button>
             <details onClick={() => setMenuFeature(!menuFeature)} open>
               <summary className="flex items-center gap-3">
