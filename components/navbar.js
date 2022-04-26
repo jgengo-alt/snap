@@ -12,7 +12,7 @@ export default function Navbar() {
     <nav>
       <div className="flex h-20 items-center justify-between px-10">
         <div className="flex">
-          <img src="logo.svg" />
+          <img src="logo.svg" alt='logo snap'/>
           <div className="ml-10 hidden items-center gap-5 lg:flex">
             <div className="relative">
               <div>
@@ -28,6 +28,7 @@ export default function Navbar() {
                         feature ? "icon-arrow-up.svg" : "icon-arrow-down.svg"
                       }
                       className="inline-flex"
+                      alt='arrow navigation'
                     />
                   </span>
                 </a>
@@ -50,6 +51,7 @@ export default function Navbar() {
                         company ? "icon-arrow-up.svg" : "icon-arrow-down.svg"
                       }
                       className="inline-flex"
+                      alt='arrow dropdown'
                     />
                   </span>
                 </a>

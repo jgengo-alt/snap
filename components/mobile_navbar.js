@@ -24,6 +24,7 @@ export default function MobileNavbar() {
                     src={
                       menuFeature ? "icon-arrow-up.svg" : "icon-arrow-down.svg"
                     }
+                    alt='arrow dropdown'
                   />
                 </span>
               </summary>
@@ -42,6 +43,7 @@ export default function MobileNavbar() {
                     src={
                       menuCompany ? "icon-arrow-up.svg" : "icon-arrow-down.svg"
                     }
+                    alt='arrow dropdown'
                   />
                 </span>
               </summary>
